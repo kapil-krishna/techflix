@@ -31,9 +31,9 @@ const descriptionStyle = {
 export function WelcomeBanner() {
     return (
         <section style={welcomeBannerStyle}>
-            <img style={imageStyle} src="https://m.media-amazon.com/images/M/MV5BZmQ2YzJlZTUtZWYzMi00ZjJjLWJkMjEtYjU4NjRiNDU4ZTVmXkEyXkFqcGdeQXVyNjczOTE0MzM@._V1_.jpg"/>
+            <img id="welcome-image" style={imageStyle} src="https://m.media-amazon.com/images/M/MV5BZmQ2YzJlZTUtZWYzMi00ZjJjLWJkMjEtYjU4NjRiNDU4ZTVmXkEyXkFqcGdeQXVyNjczOTE0MzM@._V1_.jpg"/>
             <div style={messageStyle}>
-                <h1 style={titleStyle}>Star Wars: The Rise of Skywalker</h1>
+                <h1 id="welcome-title" style={titleStyle}>Star Wars: The Rise of Skywalker</h1>
                 <p style={descriptionStyle}>The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.</p>
             </div>
         </section>
